@@ -14,7 +14,7 @@
 
   <remote name="me"
           fetch="https://github.com/galang8664"
-          revision="topaz"/>
+          revision="lineage-20t"/>
 
   <!--remote name="los"
           fetch="https://github.com/LineageOS"
