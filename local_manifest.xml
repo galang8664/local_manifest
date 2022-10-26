@@ -23,10 +23,10 @@
   <project path="prebuilts/clang/host/linux-x86/clang-6443078" name="android_prebuilts_clang_host_linux-x86_clang-6443078" remote="a" revision="11.0.1" clone-depth="1"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="crd" revision="11.0" clone-depth="1"/>
   <remove-project name="platform/external/tinyxml"/>
-  <project path="external/tinyxml" name="ArrowOS/android_external_tinyxml" remote="github" revision="arrow-12.0"/>
+  <project path="external/tinyxml" name="ArrowOS/android_external_tinyxml" remote="github" revision="arrow-13.0"/>
   <remove-project name="crdroidandroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony"/>
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rrr" revision="twelve"/>
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rrr" revision="thirteen"/>
   <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"  path="frameworks/opt/net/ims"/>
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="rrr" revision="twelve"/>
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="rrr" revision="thirteen"/>
 
 </manifest>
