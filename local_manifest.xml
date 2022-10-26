@@ -25,6 +25,8 @@
   <remote name="me"
           fetch="https://github.com/galang8664"
           revision="rice"/>
+  <remote name="ImSurajxD"
+          fetch="https://gitlab.com/ImSurajxD"/>
 
 <!-- Remove some modules -->
   <!--remove-project name="packages_modules_Bluetooth" /-->
@@ -47,6 +49,7 @@
   <project path="hardware/mediatek" name="hardware_mediatek" remote="pixel" revision="thirteen"/>
   <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="fm" revision="13.0"/>
   <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="arrow" revision="arrow-13.0"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
 
  <!-- Patch -->
   <!--project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Bt" revision="13.0"/-->
