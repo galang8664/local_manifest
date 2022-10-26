@@ -9,7 +9,8 @@
   <remote  name="a" fetch="https://github.com/S8M1T"/>
   <remote  name="crd" fetch="https://github.com/crdroidandroid"/>
   <remote  name="lang" fetch="https://github.com/galang8664"/>
-
+  <remote  name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD"/>
+ 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="DeviceTree" remote="lang" revision="rom"/>
   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-commone" remote="lang" revision="lineage-20"/>
@@ -28,5 +29,6 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rrr" revision="thirteen"/>
   <remove-project name="crdroidandroid/android_frameworks_opt_net_ims"  path="frameworks/opt/net/ims"/>
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="rrr" revision="thirteen"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
 
 </manifest>
