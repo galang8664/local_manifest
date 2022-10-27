@@ -27,6 +27,8 @@
           revision="rice"/>
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD"/>
+  <remote name="lab"
+          fetch="https://gitlab.com/nishant6342"/>
 
 <!-- Remove some modules -->
   <!--remove-project name="packages_modules_Bluetooth" /-->
@@ -50,6 +52,7 @@
   <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="fm" revision="13.0"/>
   <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="arrow" revision="arrow-13.0"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
+  <project path="packages/apps/prebuilt-apps/" name="packages_apps_prebuilt-apps" remote="lab" revision="master" clone-depth="1"/>
 
  <!-- Patch -->
   <!--project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Bt" revision="13.0"/-->
