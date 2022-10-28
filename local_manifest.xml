@@ -25,10 +25,10 @@
   <remote name="me"
           fetch="https://github.com/galang8664"
           revision="rice"/>
+  
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD"/>
-  <remote name="lab"
-          fetch="https://gitlab.com/nishant6342"/>
+
 
 <!-- Remove some modules -->
   <!--remove-project name="packages_modules_Bluetooth" /-->
