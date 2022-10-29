@@ -23,5 +23,6 @@
   <remove-project name="platform/packages/modules/Bluetooth"/>
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="rr" revision="13.0"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
+  <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/>
 
 </manifest>
