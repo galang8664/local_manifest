@@ -8,6 +8,7 @@
   <remote  name="rr" fetch="https://github.com/begonia-dev"/>
   <remote  name="r" fetch="https://github.com/nashc-dev"/>
   <remote  name="lang" fetch="https://github.com/galang8664"/>
+  <remote  name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/lava" name="DeviceTree" remote="lang" revision="ricenew"/>
@@ -20,5 +21,6 @@
  <!-- Extras -->
   <remove-project name="platform/packages/modules/Bluetooth"/>
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="rr" revision="13.0"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
 
 </manifest>
