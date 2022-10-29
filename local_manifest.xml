@@ -9,14 +9,15 @@
   <remote  name="r" fetch="https://github.com/nashc-dev"/>
   <remote  name="lang" fetch="https://github.com/galang8664"/>
   <remote  name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD"/>
+  <remote  name="dev" fetch="https://github.com/mt6768-dev"/>
+  <remote  name="Redmi-MT6768" fetch="https://github.com/Redmi-MT6768"/>
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="DeviceTree" remote="lang" revision="ricenew"/>
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="rrr" revision="lineage-20"/>
-  <project path="kernel/xiaomi/mt6768" name="LightningPlus" remote="me" revision="12.1"/>
-  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="rrr" revision="lineage-20"/>
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="r" revision="next/arrow-13.0"/>
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="rrr" revision="lineage-20.0"/>
+  <project path="device/xiaomi/lava" name="android_device_xiaomi_lancelot" remote="lang" revision="rice-r"/>
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="dev" revision="lineage-20-fm"/>
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="Redmi-MT6768" revision="twelve"/>
+  <project path="vendor/xiaomi/lava" name="android_vendor_xiaomi_lava" remote="Redmi-MT6768" revision="twelve"/>
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="dev" revision="lineage-20"/>
   
  <!-- Extras -->
   <remove-project name="platform/packages/modules/Bluetooth"/>
