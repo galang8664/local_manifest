@@ -52,8 +52,8 @@
   <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="fm" revision="13.0"/>
   <project path="packages/apps/GCamGOPrebuilt" name="android_packages_apps_GCamGOPrebuilt" remote="arrow" revision="arrow-13.0"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
-  <project path="vendor/syberia" name="platform_vendor_syberia" remote="me" revision="13.0"/ >
   <remove-project name="platform_vendor_syberia"/>
+  <project path="vendor/syberia" name="platform_vendor_syberia" remote="me" revision="13.0"/ >
   
  <!-- Patch -->
   <!--project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="Bt" revision="13.0"/-->
