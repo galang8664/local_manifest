@@ -35,7 +35,7 @@
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="rice"/>
+  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="cipher"/>
 
  <!-- Common Trees -->
   <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="pixel-devices" revision="thirteen"/>
