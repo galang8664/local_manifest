@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Sources -->
+  <project path="device/xiaomi/lava" name="R9Lab/DeviceTree" remote="github" revision="EvoX-13"/>
+  <project path="device/xiaomi/mt6768-common" name="R9Lab/CommonDeviceTree" remote="github" revision="thirteen"/>
+  <project path="kernel/xiaomi/mt6768" name="orkunergun/LightningPlus" remote="github" revision="12.1"/>
+  <project path="vendor/xiaomi/lava" name="R9Lab/VendorTree" remote="github" revision="thirteen"/>
+  <project path="hardware/mediatek" name="PixelExperience/hardware_mediatek" remote="github" revision="thirteen"/>
+  <project path="device/mediatek/sepolicy_vndr" name="PixelExperience/device_mediatek_sepolicy_vndr" remote="github" revision="thirteen"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1"/>
+  <remove-project name="packages_modules_Bluetooth"/>
+  <remove-project name="platform/system/bpf"/>
+  <project path="packages/modules/Bluetooth" name="PixelExperience/packages_modules_Bluetooth" remote="github" revision="thirteen"/>
+  <project path="system/bpf" name="kaikeEXE/system_bpf" remote="github" revision="thirteen"/>
+
+</manifest>
