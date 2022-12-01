@@ -24,7 +24,7 @@
 
   <remote name="me"
           fetch="https://github.com/galang8664"
-          revision="rice"/>
+          revision="evox"/>
   
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD"/>
@@ -35,16 +35,16 @@
   <!--remove-project name="vendor_qcom_opensource_commonsys-intf_display"/-->
 
  <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="device_xiaomi_lava" remote="me" revision="rice"/>
+  <project path="device/xiaomi/lava" name="device" remote="me" revision="evox"/>
 
  <!-- Common Trees -->
-  <project path="device/xiaomi/mt6768-common" name="device_xiaomi_mt6768-common" remote="pixel-devices" revision="thirteen"/>
+  <project path="device/xiaomi/mt6768-common" name="common" remote="me" revision="thirteen"/>
 
  <!-- Kernel -->
-  <project path="kernel/xiaomi/mt6768" name="kernel_xiaomi_mt6768" remote="pixel-devices" revision="thirteen"/>
+  <project path="kernel/xiaomi/mt6768" name="LightningPlus" remote="me" revision="12.1"/>
 
  <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/lava" name="vendor_xiaomi_lava" remote="pixel-devices-blobs" revision="thirteen"/>
+  <project path="vendor/xiaomi/lava" name="vendor" remote="me" revision="thirteen"/>
 
  <!-- Extra -->
   <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen"/>
