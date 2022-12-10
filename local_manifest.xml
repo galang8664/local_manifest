@@ -23,7 +23,7 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
   <remove-project name="packages_modules_Bluetooth"/>
   <remove-project name="platform/system/bpf"/>
-  <project path="packages/modules/Bluetooth" name="PixelExperience/packages_modules_Bluetooth" remote="github" revision="thirteen"/>
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel" revision="thirteen"/>
   <project path="system/bpf" name="system_bpf" remote="orkun" revision="thirteen"/>
  
 </manifest>
