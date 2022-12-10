@@ -13,23 +13,17 @@
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD"/>
 
- <!-- Device Trees -->
-  <project path="device/xiaomi/lava" name="device" remote="me" revision="evox"/>
+  <!-- Sources -->
+  <project path="device/xiaomi/lava" name="device" remote="me" revision="los13"/>
   <project path="device/xiaomi/mt6768-common" name="common" remote="me" revision="thirteen"/>
-
- <!-- Kernel -->
   <project path="kernel/xiaomi/mt6768" name="LightningPlus" remote="me" revision="12.1"/>
-
- <!-- Vendor Trees -->
   <project path="vendor/xiaomi/lava" name="vendor" remote="me" revision="thirteen"/>
-  
- <!-- Extras -->
-  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen"/>
+  <project path="device/mediatek/sepolicy_vndr" name="PixelExperience/device_mediatek_sepolicy_vndr" remote="pixel" revision="thirteen"/>
   <project path="hardware/mediatek" name="hardware_mediatek" remote="pixel" revision="thirteen"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
   <remove-project name="packages_modules_Bluetooth"/>
   <remove-project name="platform/system/bpf"/>
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel" revision="thirteen"/>
+  <project path="packages/modules/Bluetooth" name="PixelExperience/packages_modules_Bluetooth" remote="github" revision="thirteen"/>
   <project path="system/bpf" name="system_bpf" remote="orkun" revision="thirteen"/>
-
+ 
 </manifest>
