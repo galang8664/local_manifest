@@ -1,1 +1,46 @@
-2BEjCEFWPBmdLwc29OGpVNHsvSB_3PUuPUR5NRR6oNi1AgmmL
+{
+		"inbounds": [],
+		"outbounds": [
+				{
+						"mux": {
+								"enabled": false
+						},
+						"protocol": "trojan",
+						"settings": {
+								"servers": [
+										{
+												"address": "172.67.70.101",
+												"level": 8,
+												"password": "whyvpn-nxnxdndn",
+												"port": 443
+										}
+								]
+						},
+						"streamSettings": {
+								"network": "ws",
+								"security": "tls",
+								"tlsSettings": {
+										"allowInsecure": true,
+										"serverName": "do1.kitu.xyz"
+								},
+								"wsSettings": {
+										"headers": {
+												"Host": "do1.kitu.xyz"
+										},
+										"path": "/trojan-go"
+								}
+						},
+						"tag": "TROJAN"
+				}
+		],
+		"policy": {
+				"levels": {
+						"8": {
+								"connIdle": 300,
+								"downlinkOnly": 1,
+								"handshake": 4,
+								"uplinkOnly": 1
+						}
+				}
+		}
+}
