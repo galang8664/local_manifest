@@ -3,10 +3,10 @@
 
  <!-- Sources -->
   <project path="device/xiaomi/lancelot" name="galang8664/device-r" remote="github" revision="evoxr"/>
-  <project path="device/xiaomi/mt6768-common" name="R9Lab/CommonDeviceTree" remote="github" revision="13-R"/>
+  <project path="device/xiaomi/mt6768-common" name="hentaiOS-MT6768/device_xiaomi_mt6768-common" remote="github" revision="TwistedScarlett"/>
   <project path="kernel/xiaomi/mt6768" name="mt6768-dev/android_kernel_xiaomi_mt6768" remote="github" revision="lineage-20"/>
-  <project path="vendor/xiaomi/lancelot" name="R9Lab/VendorTree" remote="github" revision="13-R"/>
-  <project path="vendor/xiaomi/mt6768-common" name="R9Lab/CommonVendorTree" remote="github" revision="13-R"/>
+  <project path="vendor/xiaomi/lancelot" name="hentaiOS-MT6768/vendor_xiaomi" remote="github" revision="TwistedScarlett"/>
+  <project path="vendor/xiaomi/mt6768-common" name="galang8664/common-vendor" remote="github" revision="13-R"/>
   <project path="hardware/mediatek" name="mt6768-dev/android_hardware_mediatek" remote="github" revision="lineage-20"/>
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1"/>
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="gitlab" revision="master" clone-depth="1"/>
